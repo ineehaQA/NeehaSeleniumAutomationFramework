@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="flipkarttestcases(failed)">
+    <classes>
+      <class name="testcases.flipkarttestcases">
+        <methods>
+          <include name="checkItemStockStatus"/>
+          <include name="flushReport"/>
+          <include name="switchToNewWindow"/>
+          <include name="searchItem"/>
+          <include name="sortByPrice"/>
+          <include name="setupReport"/>
+          <include name="tearDown"/>
+          <include name="sortByRating"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcases.flipkarttestcases -->
+    </classes>
+  </test> <!-- flipkarttestcases(failed) -->
+</suite> <!-- Failed suite [Suite] -->
